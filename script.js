@@ -23,6 +23,11 @@ recognition.addEventListener("result", (e) => {
   if (transcript.includes("Eddy Guo")) {
     console.log("😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎");
   }
+  //Can console.log a function if a specific phrase is heard;
+  if (transcript.includes("weather")) {
+    console.log("☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️☂️");
+  }
+  //☂️--> run function, use weather API to pull and display stats(?)
   console.log(transcript);
 });
 
