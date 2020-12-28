@@ -20,6 +20,9 @@ recognition.addEventListener("result", (e) => {
     p = document.createElement("p");
     words.appendChild(p);
   }
+  if (transcript.includes("Eddy Guo")) {
+    console.log("😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎😎");
+  }
   console.log(transcript);
 });
 
