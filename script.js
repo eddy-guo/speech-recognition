@@ -20,9 +20,6 @@ recognition.addEventListener("result", (e) => {
     p = document.createElement("p");
     words.appendChild(p);
   }
-  if (transcript.includes("unicorn")) {
-    console.log("pooopoo");
-  }
   console.log(transcript);
 });
 
